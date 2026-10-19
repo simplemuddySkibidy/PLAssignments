@@ -10,8 +10,6 @@ public class TaskB{
             if (i % d == c){
                 System.out.print(i+" ");
             }
-
         }
-
     }
 }
