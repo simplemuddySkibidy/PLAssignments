@@ -11,11 +11,8 @@ public class TaskE {
             long b = x % 10;
             int b1 = (int)b;
             a = a + b1;
-
-
             x = x / 10;
         }
-
         System.out.println(a);
     }
 }
