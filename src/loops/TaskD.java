@@ -11,14 +11,11 @@ public class TaskD {
 
         while (x > 0) {
             long b = x % 10;
-
             if (b == d) {
                 a++;
             }
-
             x = x / 10;
         }
-
         System.out.println(a);
     }
 }
