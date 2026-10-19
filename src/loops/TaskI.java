@@ -6,7 +6,6 @@ public class TaskI {
         long a = sc.nextLong();
         int b = 0;
 
-
         for (long i = 1; i * i <= a; i++) {
             if (a % i == 0) {
                 if (i * i == a) {
@@ -16,7 +15,6 @@ public class TaskI {
                 }
             }
         }
-
         System.out.println(b);
     }
 }
