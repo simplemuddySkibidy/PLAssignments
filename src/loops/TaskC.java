@@ -7,13 +7,11 @@ public class TaskC{
         for (int i = a; i <= b; i++){
             if (i < 0) continue;
 
-            int r = (int) Math.sqrt(i);
+            int w = (int) Math.sqrt(i);
 
-            if (r * r == i) {
+            if (w * w == i) {
                 System.out.print(i + " ");
             }
-
         }
-
     }
 }
