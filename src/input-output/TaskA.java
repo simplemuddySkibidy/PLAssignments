@@ -11,3 +11,5 @@ public class TaskA {
 
         double c = Math.sqrt(a*a + b*b);
         System.out.println(c);
+    }
+}
